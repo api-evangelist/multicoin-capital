@@ -1,0 +1,87 @@
+aid: multicoin-capital
+name: Multicoin Capital
+description: >-
+  Multicoin Capital is a thesis-driven crypto investment firm founded in 2017 by
+  Kyle Samani and Tushar Jain, investing in cryptocurrencies, tokens, and
+  blockchain companies and protocols believed to be reshaping trillion-dollar
+  markets. The firm runs a hybrid structure of a hedge fund (its multi-billion
+  dollar Master Fund, investing in public markets, direct positions, and
+  strategic sales) alongside several venture funds that back early-stage
+  companies, with venture checks ranging from roughly $1M to $50M. Its Venture
+  Fund III closed at $422 million in January 2022. Multicoin invests across open
+  and decentralized finance (DeFi), blockchain infrastructure and Layer 1/Layer 2
+  protocols, decentralized physical infrastructure networks (DePIN), stablecoins
+  and payments, real-world asset tokenization, wallets, identity, gaming, and
+  crypto-native consumer applications, with a well-known concentration around the
+  Solana ecosystem. The firm's phoenix logo symbolizes a new financial system
+  rising from the ashes of the old one, reflecting its long-term, high-conviction
+  approach to absolute returns across market cycles. Headquartered in Austin,
+  Texas, Multicoin manages capital on behalf of family offices, foundations,
+  endowments, and institutional investors. In February 2026 co-founder Kyle
+  Samani stepped back from day-to-day management, with operations continuing under
+  co-founder Tushar Jain and partner Brian Smith.
+image: https://multicoin.capital/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Crypto
+  - Blockchain
+  - Web3
+  - DeFi
+  - Infrastructure
+  - DePIN
+  - Solana
+  - United States
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://multicoin.capital/
+  - type: Portfolio
+    url: https://multicoin.capital/portfolio/
+  - type: Portfolio
+    url: portfolio/multicoin-capital-portfolio.yml
+  - type: Team
+    url: https://multicoin.capital/about/
+  - type: Team
+    url: team/multicoin-capital-team.yml
+  - type: Blog
+    url: https://multicoin.capital/blog/
+  - type: Jobs
+    url: https://multicoin.capital/careers/
+  - type: Twitter
+    url: https://twitter.com/multicoincap
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/multicoincapital
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/multicoin-capital
+  - type: Contact
+    url: mailto:hello@multicoin.capital
+  - type: Features
+    data:
+      - 'Stage: Early-stage venture plus public/liquid token positions (hedge fund)'
+      - 'Typical check: $1M-$50M (Venture Fund III)'
+      - 'Sectors: DeFi, blockchain infrastructure, Layer 1/Layer 2 protocols, DePIN, stablecoins, payments, real-world assets, wallets, identity, gaming, crypto consumer'
+      - 'Geography: United States (Austin, TX) with global crypto reach'
+      - 'AUM: multi-billion dollar Master Fund (self-reported); AUM not publicly disclosed'
+      - 'Funds: Master Fund (hedge fund) + Venture Funds; Venture Fund III $422M (closed January 2022)'
+      - 'Founded: 2017'
+      - 'Founders: Kyle Samani, Tushar Jain'
+      - 'HQ: Austin, TX'
+    sources:
+      - https://multicoin.capital/
+      - https://multicoin.capital/about/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Multicoin Capital
+    url: https://multicoin.capital/
