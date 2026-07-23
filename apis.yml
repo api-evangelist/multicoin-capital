@@ -20,6 +20,17 @@ description: >-
   endowments, and institutional investors. In February 2026 co-founder Kyle
   Samani stepped back from day-to-day management, with operations continuing under
   co-founder Tushar Jain and partner Brian Smith.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://multicoin.capital/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital

@@ -3,9 +3,9 @@ method: searched
 source: https://multicoin.capital/portfolio/
 summary:
   portfolio_total: 134
-  in_network: 29
-  api_providers: 20
-  missing: 105
+  in_network: 134
+  api_providers: 43
+  missing: 0
   stubs_created: 0
 companies:
 - name: 01 Exchange
@@ -13,17 +13,19 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 01-exchange
+  slug: 01-exchange
+  matched_by: domain
 - name: Alethea
   url: https://alethea.ai
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alethea
+  slug: alethea
+  matched_by: name-slug
 - name: Algorand
   url: https://algorand.com
   sector: crypto-web3
@@ -38,17 +40,19 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alliance
+  slug: alliance
+  matched_by: domain
 - name: Alpha Finance
   url: https://alphafinance.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alpha-finance
+  slug: alpha-finance
+  matched_by: name-slug
 - name: Aptos Labs
   url: https://aptoslabs.com
   sector: crypto-web3
@@ -63,9 +67,10 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arch-network
+  slug: arch-network
+  matched_by: domain
 - name: Arweave
   url: https://arweave.org
   sector: crypto-web3
@@ -73,7 +78,7 @@ companies:
   source: https://multicoin.capital/portfolio/
   slug: arweave
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Audius
   url: https://audius.co
@@ -89,106 +94,118 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: babel-finance
+  slug: babel-finance
+  matched_by: domain
 - name: Bakkt
   url: https://bakkt.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bakkt
+  in_network: true
+  is_api_provider: true
+  slug: bakkt
+  matched_by: domain
 - name: Baxus
   url: https://baxus.co
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baxus
+  slug: baxus
+  matched_by: domain
 - name: Blackbird
   url: https://blackbird.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: blackbird
+  in_network: true
+  is_api_provider: true
+  slug: blackbird
+  matched_by: domain
 - name: Braintrust
   url: https://usebraintrust.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  slug: braintrust
+  slug: usebraintrust
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Breeze
   url: https://breeze.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: breeze
+  in_network: true
+  is_api_provider: true
+  slug: breeze
+  matched_by: name-slug
 - name: Creator Cabins
   url: https://creatorcabins.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: creator-cabins
+  slug: creator-cabins
+  matched_by: domain
 - name: Catalog
   url: https://catalog.fi
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: catalog
+  slug: catalog
+  matched_by: name-slug
 - name: Coin98
   url: https://coin98.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coin98
+  slug: coin98
+  matched_by: domain
 - name: Coinbooks
   url: https://coinbooks.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coinbooks
+  slug: coinbooks
+  matched_by: domain
 - name: Community Gaming
   url: https://communitygaming.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: community-gaming
+  slug: community-gaming
+  matched_by: domain
 - name: Coral
   url: https://coral.community
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coral
+  slug: coral
+  matched_by: name-slug
 - name: CrunchDAO
   url: https://crunchdao.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: crunchdao
+  in_network: true
+  is_api_provider: true
+  slug: crunchdao
+  matched_by: domain
 - name: Cyber
   url: https://cyber.co
   sector: crypto-web3
@@ -203,73 +220,82 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dabba
+  slug: dabba
+  matched_by: domain
 - name: DAOex
   url: https://daoex.app
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daoex
+  slug: daoex
+  matched_by: domain
 - name: dClimate
   url: https://dclimate.net
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dclimate
+  slug: dclimate
+  matched_by: domain
 - name: Delphia
   url: https://delphia.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delphia
+  slug: delphia
+  matched_by: domain
 - name: Dfinity
   url: https://dfinity.org
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dfinity
+  slug: dfinity
+  matched_by: domain
 - name: DFlow
   url: https://dflow.net
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dflow
+  in_network: true
+  is_api_provider: true
+  slug: dflow
+  matched_by: domain
 - name: dForce
   url: https://dforce.network
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dforce
+  slug: dforce
+  matched_by: domain
 - name: Dialect
   url: https://dialect.to
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dialect
+  in_network: true
+  is_api_provider: true
+  slug: dialect
+  matched_by: domain
 - name: DoubleZero
   url: https://doublezero.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doublezero
+  slug: doublezero
+  matched_by: domain
 - name: Drift
   url: https://drift.trade
   sector: crypto-web3
@@ -293,57 +319,64 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eden-network
+  slug: eden-network
+  matched_by: domain
 - name: Eldorado
   url: https://eldorado.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eldorado
+  slug: eldorado
+  matched_by: domain
 - name: Enso
   url: https://enso.finance
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: enso
+  in_network: true
+  is_api_provider: true
+  slug: enso
+  matched_by: domain
 - name: Ethena
   url: https://ethena.fi
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ethena
+  slug: ethena-labs
+  matched_by: domain
 - name: EV3
   url: https://ev3.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ev3
+  slug: ev3
+  matched_by: domain
 - name: Exotic Markets
   url: https://exotic.markets
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exotic-markets
+  slug: exotic-markets
+  matched_by: domain
 - name: Fantiger
   url: https://fantiger.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fantiger
+  slug: fantiger
+  matched_by: domain
 - name: Farcaster
   url: https://farcaster.xyz
   sector: crypto-web3
@@ -358,17 +391,19 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fastlane
+  slug: fastlane
+  matched_by: domain
 - name: Fhenix
   url: https://fhenix.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fhenix
+  slug: fhenix
+  matched_by: domain
 - name: Filebase
   url: https://filebase.com
   sector: crypto-web3
@@ -383,7 +418,7 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  slug: flow-blockchain
+  slug: dapper-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -392,81 +427,91 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fluence
+  in_network: true
+  is_api_provider: true
+  slug: fluence
+  matched_by: domain
 - name: Fluidity
   url: https://fluidity.money
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fluidity
+  slug: fluidity
+  matched_by: domain
 - name: Fractal
   url: https://fractal.is
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fractal
+  slug: fractal
+  matched_by: name-slug
 - name: Fuse Energy
   url: https://fuseenergy.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fuse-energy
+  slug: fuse-energy
+  matched_by: domain
 - name: Galxe
   url: https://galxe.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: galxe
+  slug: galxe
+  matched_by: domain
 - name: GMR
   url: https://gmr.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gmr
+  slug: gmr
+  matched_by: domain
 - name: Geneva
   url: https://geneva.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geneva
+  slug: geneva
+  matched_by: domain
 - name: Genies
   url: https://genies.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genies
+  slug: genies
+  matched_by: domain
 - name: Geode
   url: https://geode.fi
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geode
+  slug: geode
+  matched_by: domain
 - name: GEODNET
   url: https://geodnet.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: geodnet
+  slug: geodnet
+  matched_by: domain
 - name: Glif
   url: https://glif.io
   sector: crypto-web3
@@ -481,17 +526,19 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gradient
+  in_network: true
+  is_api_provider: true
+  slug: gradient
+  matched_by: domain
 - name: Grapes
   url: https://grapes.network
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grapes
+  slug: grapes
+  matched_by: name-slug
 - name: Helium
   url: https://helium.com
   sector: crypto-web3
@@ -506,33 +553,37 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heroic-story
+  slug: heroic-story
+  matched_by: domain
 - name: Hivemapper
   url: https://hivemapper.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hivemapper
+  in_network: true
+  is_api_provider: true
+  slug: hivemapper
+  matched_by: domain
 - name: Hubble Protocol
   url: https://hubbleprotocol.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hubble-protocol
+  slug: hubble-protocol
+  matched_by: domain
 - name: Inference
   url: https://inference.supply
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inference
+  slug: inference
+  matched_by: name-slug
 - name: io.net
   url: https://io.net
   sector: crypto-web3
@@ -556,33 +607,37 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juke
+  slug: juke
+  matched_by: domain
 - name: Kamino
   url: https://kamino.finance
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kamino
+  in_network: true
+  is_api_provider: true
+  slug: kamino
+  matched_by: domain
 - name: Kadena
   url: https://kadena.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kadena
+  in_network: true
+  is_api_provider: true
+  slug: kadena
+  matched_by: domain
 - name: Keep Network
   url: https://keep.network
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keep-network
+  slug: keep-network
+  matched_by: domain
 - name: LayerZero
   url: https://layerzero.network
   sector: crypto-web3
@@ -606,9 +661,10 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lifi
+  in_network: true
+  is_api_provider: true
+  slug: lifi
+  matched_by: domain
 - name: Livepeer
   url: https://livepeer.org
   sector: crypto-web3
@@ -623,73 +679,82 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lore
+  slug: lore
+  matched_by: domain
 - name: marginfi
   url: https://marginfi.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marginfi
+  slug: marginfi
+  matched_by: domain
 - name: MathWallet
   url: https://mathwallet.org
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mathwallet
+  slug: mathwallet
+  matched_by: domain
 - name: Mevvy Network
   url: https://mevvynetwork.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mevvy-network
+  slug: mevvy-network
+  matched_by: domain
 - name: Mezo
   url: https://mezo.org
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mezo
+  slug: mezo
+  matched_by: domain
 - name: Mina Protocol
   url: https://minaprotocol.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mina-protocol
+  slug: mina-protocol
+  matched_by: domain
 - name: Mithril
   url: https://mithril.ai
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mithril
+  in_network: true
+  is_api_provider: true
+  slug: mithril
+  matched_by: domain
 - name: MobileCoin
   url: https://mobilecoin.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mobilecoin
+  slug: mobilecoin
+  matched_by: domain
 - name: Mountain Protocol
   url: https://mountainprotocol.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mountain-protocol
+  slug: mountain-protocol
+  matched_by: domain
 - name: NEAR
   url: https://near.org
   sector: crypto-web3
@@ -704,73 +769,82 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nervos
+  slug: nervos
+  matched_by: domain
 - name: Novig
   url: https://novig.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novig
+  slug: novig
+  matched_by: name-slug
 - name: Oxio
   url: https://oxio.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oxio
+  slug: oxio
+  matched_by: domain
 - name: Passes
   url: https://passes.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: passes
+  slug: passes
+  matched_by: domain
 - name: Paxos
   url: https://paxos.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: paxos
+  in_network: true
+  is_api_provider: true
+  slug: paxos
+  matched_by: domain
 - name: Perp
   url: https://perp.fi
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perp
+  slug: perp
+  matched_by: name-slug
 - name: Pipe Network
   url: https://pipe.network
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pipe-network
+  slug: pipe-network
+  matched_by: domain
 - name: The Portal
   url: https://theportal.to
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-portal
+  slug: portals
+  matched_by: domain
 - name: Pyth
   url: https://pyth.network
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pyth
+  in_network: true
+  is_api_provider: true
+  slug: pyth
+  matched_by: domain
 - name: PsiQuantum
   url: https://psiquantum.com
   sector: crypto-web3
@@ -785,25 +859,28 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quadrata
+  slug: quadrata
+  matched_by: domain
 - name: Realy
   url: https://realy.pro
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: realy
+  slug: realy
+  matched_by: domain
 - name: Recall
   url: https://recall.network
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: recall
+  in_network: true
+  is_api_provider: true
+  slug: recall
+  matched_by: domain
 - name: Render
   url: https://rendertoken.com
   sector: crypto-web3
@@ -818,57 +895,64 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reverie
+  slug: reverie
+  matched_by: domain
 - name: Saber
   url: https://app.saber.so
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saber
+  slug: saber
+  matched_by: domain
 - name: Saffron Finance
   url: https://saffron.finance
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saffron-finance
+  slug: saffron-finance
+  matched_by: domain
 - name: Salad Ventures
   url: https://salad.ventures
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salad-ventures
+  slug: salad-ventures
+  matched_by: domain
 - name: Satellite
   url: https://satellite.im
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: satellite
+  slug: satellite
+  matched_by: domain
 - name: Sec3
   url: https://sec3.dev
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sec3
+  slug: sec3
+  matched_by: domain
 - name: Seed Club
   url: https://seedclub.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seed-club
+  slug: seedclub
+  matched_by: domain
 - name: Sei
   url: https://seinetwork.io
   sector: crypto-web3
@@ -883,9 +967,10 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skale-labs
+  slug: skale-labs
+  matched_by: name-slug
 - name: Solana
   url: https://solana.com
   sector: crypto-web3
@@ -909,41 +994,46 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sommelier
+  in_network: true
+  is_api_provider: true
+  slug: sommelier
+  matched_by: domain
 - name: Spindl
   url: https://spindl.xyz
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spindl
+  in_network: true
+  is_api_provider: true
+  slug: spindl
+  matched_by: domain
 - name: Spring Labs
   url: https://springlabs.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spring-labs
+  slug: spring-labs
+  matched_by: domain
 - name: Squads
   url: https://squads.so
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: squads
+  slug: squads
+  matched_by: domain
 - name: StarkWare
   url: https://starkware.co
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starkware
+  slug: starkware
+  matched_by: domain
 - name: StreamingFast
   url: https://streamingfast.io
   sector: crypto-web3
@@ -958,41 +1048,46 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stride
+  slug: stride
+  matched_by: domain
 - name: Superfluid
   url: https://superfluid.finance
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superfluid
+  slug: superfluid
+  matched_by: name-slug
 - name: Tagomi
   url: https://tagomi.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tagomi
+  slug: tagomi
+  matched_by: domain
 - name: Tari
   url: https://tari.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tari
+  slug: tari
+  matched_by: domain
 - name: The Giving Block
   url: https://thegivingblock.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-giving-block
+  slug: the-giving-block
+  matched_by: domain
 - name: The Graph
   url: https://thegraph.com
   sector: crypto-web3
@@ -1007,57 +1102,64 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: thorchain
+  in_network: true
+  is_api_provider: true
+  slug: thorchain
+  matched_by: domain
 - name: Tibles
   url: https://tibles.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tibles
+  slug: tibles
+  matched_by: domain
 - name: Timeswap
   url: https://timeswap.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: timeswap
+  in_network: true
+  is_api_provider: true
+  slug: timeswap
+  matched_by: domain
 - name: TipLink
   url: https://tiplink.io
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tiplink
+  slug: tiplink
+  matched_by: domain
 - name: Triumph Arcade
   url: https://triumpharcade.com
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: triumph-arcade
+  slug: triumph-arcade
+  matched_by: domain
 - name: Unlonely
   url: https://unlonely.app
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unlonely
+  slug: unlonely
+  matched_by: domain
 - name: UXD Protocol
   url: https://uxd.fi
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uxd-protocol
+  slug: uxd-protocol
+  matched_by: domain
 - name: Web3Auth
   url: https://web3auth.io
   sector: crypto-web3
@@ -1090,22 +1192,25 @@ companies:
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yieldxyz
+  slug: yieldxyz
+  matched_by: domain
 - name: Zama
   url: https://zama.ai
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zama
+  slug: zama
+  matched_by: name-slug
 - name: zkMe
   url: https://zk.me
   sector: crypto-web3
   status: unknown
   source: https://multicoin.capital/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zkme
+  in_network: true
+  is_api_provider: true
+  slug: zkme
+  matched_by: domain
